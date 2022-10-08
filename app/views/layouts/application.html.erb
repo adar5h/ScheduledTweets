@@ -18,6 +18,9 @@
     <%= render partial: "shared/navbar" %>
 
     <div class = "container">
+
+      <%# <%= button_to "Connect Twitter", "/auth/twitter", method: :post, class: "btn btn-primary" %>
+      <%# <%= button_to "Connect Twitter", "/auth/twitter", method: :post, :data => {turbo: "false"}, class: "btn btn-primary"%>
       <%= render partial: "shared/flash"%>
       <%= yield %>
     </div>
